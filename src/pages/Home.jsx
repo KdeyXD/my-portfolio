@@ -88,7 +88,7 @@ const Home = () => {
         <h1 className="text-center text-4xl font-bold">Skills & Technologies</h1>
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-5 p-5 container m-auto text-center">
         {skills.map((skill, i) => (
-            <div className="bg-slate-800 p-5 rounded-lg" key={i}>{skill}</div>
+            <div className="bg-slate-900 p-5 rounded-lg border-3 border-indigo-900 hover:bg-indigo-900 hover:border-slate-900" key={i}>{skill}</div>
           ))}
           </div>
           <div className="text-center">
