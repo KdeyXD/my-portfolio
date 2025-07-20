@@ -92,7 +92,7 @@ const Home = () => {
           ))}
           </div>
           <div className="text-center">
-            <button className="rounded-lg px-4 py-3 bg-blue-500">Learn more about me &gt;&gt;&gt;</button>
+            <Link to='/about' className="rounded-lg px-4 py-3 bg-blue-500">Learn more about me &gt;&gt;&gt;</Link>
           </div>
       </section>
     </main>
