@@ -19,7 +19,7 @@ const Home = () => {
         <div className="container m-auto flex flex-col-reverse md:flex-row items-center justify-center min-h-full md:gap-10">
           {/* Text Content */}
           <div className=" text-center md:text-left">
-            <h1 className="text-3xl md:text-5xl font-bold bg-gradient-to-r from-indigo-300 to-purple-400 text-transparent bg-clip-text">
+            <h1 className="text-2xl md:text-5xl font-bold bg-gradient-to-r from-indigo-300 to-purple-400 text-transparent bg-clip-text">
               Front-end Web Developer
             </h1>
             <p className="mt-4 text-white md:text-lg max-w-md mx-auto md:mx-0">

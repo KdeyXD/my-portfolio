@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="bg-slate-900 text-white px-15 py-10 ">
+    <footer className="bg-slate-900 text-white p-5 md:p-15">
       <div className="grid md:grid-cols-3 gap-5">
         <div>
-          <p className="mb-2">Explore</p>
+          <h2 className="mb-2 text-xl">Explore</h2>
           <div className="inline-flex flex-col gap-2">
           <Link to='/'>Home</Link>
           <Link to='/about'>About</Link>
@@ -17,11 +17,11 @@ const Footer = () => {
           </div>
         </div>
         <div>
-          <p className="mb-2">Get in touch</p>
+          <h2 className="mb-2 text-xl">Get in touch</h2>
           <a href="mailto:sopheakdeychea2502@gmail.com">sopheakdeychea2502@gmail.com</a>
         </div>
         <div>
-          <p>Connect</p>
+          <h2 className="text-xl">Connect</h2>
           <div className="flex gap-5 mt-3">
             <a href="" className="p-3 bg-slate-800 rounded-full"><Github /></a>
             <a href="" className="p-3 bg-slate-800 rounded-full"><Linkedin /></a>
@@ -29,8 +29,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <hr className="my-10"/>
-      <div className=" flex flex-col md:flex-row justify-between items-center">
+      <hr className="my-5"/>
+      <div className=" flex flex-col md:flex-row justify-between items-center text-sm md:text-md">
         <p>&copy;2025 Chea Sopheakdey. All rights reserved.</p>
         <p>Make with React + Tailwind</p>
       </div>
